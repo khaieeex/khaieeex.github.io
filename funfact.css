@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.placer2 {
+    font-size: 100px;
+    font-family: CuteNotes;
+}
+
+h2 {
+    color: purple;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+}
+
+button {
+    font-family: Georgia;
+    padding: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: pink;
+    border-width: 5px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.temp {
+    display: none;
+    color: plum;
+    background-color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Courier New';
+    font-size: 25px;
+}

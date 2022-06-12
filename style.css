@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Khai;
+    src: url("Media/The-Dinosaur.ttf");
+}
+
+@font-face {
+    font-family: CuteNotes;
+    src: url("Media/CuteNotes.ttf");
+}
+
+@font-face {
+    font-family: Trav;
+    src: url("Media/TravelingTypewriter.ttf");
+}
+
+@font-face {
+    font-family: Wiz;
+    src: url("Media/Wizards' Magic.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5F4B8BFF
+}
+
+.title {
+    color: #E69A8DFF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Khai, cursive;
+    font-size: 25px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar a {
+    color: #E69A8DFF;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-bar a:hover {
+    border-radius: 30px;
+    width: 200px;
+    font-size: 25px;
+    cursor: pointer;
+    color: palevioletred;
+}
+
+.nav-bar a:active {
+    border-radius: 30px;
+    width: 200px;
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+}
+
+.second {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1517315003714-a071486bd9ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    height: 614px;
+    width: 100%;
+}
+
+h2 {
+    font-family: Wiz;
+    font-size: 100;
+    color: black;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: white;
+}
+
+.second a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.second a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.second a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.second a:active {
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.placer {
+    font-size: 50px;
+    font-family: CuteNotes;
+}
+
+.hobbies {
+    background: black;
+    padding: 20px;
+    list-style-image: url('Media/icons8-for-you-20.svg');
+    list-style-position: inside;
+}
+
+.hobbies li {
+    background: black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 25;
+    font-family: Trav;
+}
+
+.favs {
+    background: black;
+    padding: 20px;
+    list-style-image: url('Media/icons8-for-you-20.svg');
+    list-style-position: inside;
+}
+
+.favs li {
+    background: black;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-size: 25;
+    font-family: Trav;
+}
+
+.song {
+    font-family: CuteNotes;
+    font-size: 30px;
+}
+
+.video {
+    font-family: CuteNotes;
+    font-size: 30px;
+}
+
+@keyframes move {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        content: url("https://wallpaperaccess.com/full/2411580.gif");
+    }
+}
+
+.relax {
+    display: inline;
+    cursor: pointer;
+}
+
+.relax:before {
+    content: url("https://wallpapercave.com/uwp/uwp1508767.gif");
+    transition: all 1s linear;
+    animation-direction: reverse;
+    zoom: 40%;
+}
+
+.relax:hover:before {
+    animation-fill-mode: forwards;
+    animation: move 0.5s linear forwards;
+}
+
+.ply {
+    font-size: 60px;
+    font-family: CuteNotes;
+}
+
+.pl {
+    font-size: 50px;
+    font-family: Trav;
+}
+
+footer {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: #5F4B8BFF;
+}
+
+.copyright {
+    position: absolute;
+    width: 100%;
+    color: #E69A8DFF;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    bottom: 10;
+}

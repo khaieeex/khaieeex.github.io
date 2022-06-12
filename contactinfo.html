@@ -1,0 +1,133 @@
+<!--Editor: Khai
+Individual Assignment
+Contact Info Page-->
+
+<html>
+
+<head>
+    <title>Contact KHAI | Khairunnisa Alya</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/19/ec/de/19ecdeefdd70db4243da21b83d470be2.png">
+    <link rel="stylesheet" href="form.css">
+    <script defer src="form.js"></script>
+</head>
+
+<body bgcolor="#D2B4DE">
+
+    <nav>
+        <img src="Media/cutelove.ico" width="100" alt="Logo">
+
+
+        <div class="title">
+            <h3>About Khairunnisa Alya</h3>
+        </div>
+        <ul class="nav-bar">
+            <li>
+                <a href="mailto:khairunnisazlan@gmail.com" target="_blank"><img src="Media/icons8-mailbox.svg" width="80"></a>
+            </li>
+            <li>
+                <a href="https://instagram.com/khaiazln" target="_blank"><img src="Media/icons8-instagram.svg" width="80"></a>
+            </li>
+            <li>
+                <a href="https://my.linkedin.com/in/khairunnisa-azlan-70497a191" target="_blank"><img src="Media/icons8-linkedin.svg" width="80"></a>
+            </li>
+        </ul>
+    </nav>
+
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src = "Media/click.mp3";
+    </script>
+
+    <center>
+
+        <h1>Contact Me</h1>
+
+        <form id="form" action="index.html" method="GET">
+            <h2 align="right">HOME BUTTON</h2>
+
+            <div class="home">
+                <p align="right"><a href="index.html"><button type="button" align="right" onclick="alert('Have fun!')">Click Me!</button></a>
+                </p>
+            </div>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" size="50"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" size="50"><br>
+            <div class="error" id="error"></div>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" size="50"><br>
+
+
+            <br>
+
+            <label for="gender">Gender:</label><br>
+            <br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="nts" name="gender" value="Prefer Not To Say">
+            <label for="nts">Prefer Not To Say</label>
+
+            <br><br><br>
+
+            <label for="state">From:</label>
+            <select name="state" id="state">
+          <option value="kl">WP Kuala Lumpur</option>
+          <option value="sel">Selangot</option>
+          <option value="per">Perlis</option>
+          <option value="ked">Kedah</option>
+          <option value="pp">Pulau Pinang</option>
+          <option value="perak">Perak</option>
+          <option value="ns">Negeri Sembilan</option>
+          <option value="mel">Melaka</option>
+          <option value="joh">Johor</option>
+          <option value="kel">Kelantan</option>
+          <option value="ter">Terengganu</option>
+          <option value="pah">Pahang</option>
+          <option value="sab">Sabah</option>
+          <option value="sar">Sarawak</option>
+          <option value="ked">Kedah</option>
+          <option value="lab">WP Labuan</option>
+          <option value="put">WP Putrajaya</option>
+        </select>
+
+            <br><br><br>
+
+            <label for="rate">Did you have fun exploring?</label><br><br>
+            <select name="rate" id="rate">
+          <option value="yes">YES!</option>
+          <option value="meh">Not at all.</option>
+          <option value="lil">Kinda :D</option>
+        </select>
+
+            <br><br><br>
+
+            <label for="gender">Type of things you want to send:</label><br>
+            <input type="checkbox" id="choice1" name="choice1" value="Message">
+            <label for="choice1">Message</label><br>
+            <input type="checkbox" id="choice2" name="choice2" value="Questions">
+            <label for="choice2">Questions</label><br>
+
+            <br><br><br>
+
+            <p>
+                Type it in!<br> <textarea name="send" rows="5" cols="80"></textarea><br>
+            </p>
+
+            <br>
+
+            <input type="submit" class="button" name="submit" value="Submit" onclick="audio.play()">
+            <input type="reset" class="button" name="reset" value="Reset" onclick="audio.play()"></p>
+
+
+            <br><br><br>
+
+        </form>
+
+    </center>
+
+</body>
+
+</html>

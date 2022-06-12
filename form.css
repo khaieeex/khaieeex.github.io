@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Khai;
+    src: url("Media/The-Dinosaur.ttf");
+}
+
+@font-face {
+    font-family: Hope;
+    src: url("Media/Hopes Letter.ttf");
+}
+
+@font-face {
+    font-family: PiChi;
+    src: url("Media/PinkChicken-Regular.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #5F4B8BFF
+}
+
+.title {
+    color: #E69A8DFF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Khai, cursive;
+    font-size: 25px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: Hope, cursive;
+    font-size: 150px;
+}
+
+form {
+    background-color: lightblue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: PiChi, cursive;
+    font-size: 20px;
+}
+
+button {
+    font-family: Georgia;
+    padding: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: pink;
+    border-width: 5px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.button {
+    font-family: Georgia;
+    padding: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: pink;
+    border-width: 5px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.home button {
+    display: inline-block;
+    padding: 25px 35px;
+    font-size: 34px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 19px #999;
+}
+
+.home button:hover {
+    background-color: #008CBA;
+}
+
+.home button:active {
+    background-color: #008CBA;
+    box-shadow: 0 15px #666;
+    transform: translateY(14px);
+}
+
+.error {
+    color: red;
+}
